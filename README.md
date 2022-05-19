@@ -2,7 +2,7 @@
 
 by rohith venkatesh.
 
-## tools:
+tools:
 
 - svelte + sveltekit
 - typescript
