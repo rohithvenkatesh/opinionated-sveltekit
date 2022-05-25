@@ -2,15 +2,19 @@
 
 by rohith venkatesh.
 
-**tools:**
+**tools**
 
 - svelte + sveltekit
 - typescript
 - tailwindcss
 - prettier
 
-**dev setup**
+**development setup**
 
 1. clone this repo
 2. `npm install`
 3. `npm run dev` and go to `localhost:3000`
+
+**development notes**
+
+1. always prefer imports using `$lib` over relative imports
