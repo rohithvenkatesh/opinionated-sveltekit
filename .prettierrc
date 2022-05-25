@@ -3,5 +3,5 @@
 	"singleQuote": true,
 	"trailingComma": "none",
 	"printWidth": 600,
-	"bracketSameLine": true
+	"singleAttributePerLine": true
 }

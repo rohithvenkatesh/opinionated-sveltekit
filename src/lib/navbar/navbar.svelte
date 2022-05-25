@@ -25,9 +25,10 @@
 
 <!-- nav -->
 <div
-	class="text-primarylight bg-primarydark flex h-screen min-h-screen w-fit flex-col gap-10 
-		overflow-hidden px-5 py-10 text-center">
-	<!-- pages -->
+	class="bg-primarydark text-primarylight 
+	flex h-screen min-h-screen w-fit flex-col gap-10 
+	overflow-hidden px-5 py-10 text-center"
+>
 	{#each pages as page}
 		<NavbarItem icon={page.icon} slug={page.slug} selected={slug == page.slug} />
 	{/each}

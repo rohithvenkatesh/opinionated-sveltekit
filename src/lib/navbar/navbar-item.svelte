@@ -6,9 +6,9 @@
 
 <a
 	href={slug}
-	class="fill-primarylight o w-12 rounded p-2 transition-all 
-		first:bg-transparent last:mt-auto 
-		hover:bg-gray-600 first:hover:bg-transparent
-		{selected ? 'bg-primary' : 'bg-transparent'}">
+	class="fill-primarylight w-12 rounded p-2 transition-all 
+	first:bg-transparent last:mt-auto hover:bg-gray-600 first:hover:bg-transparent 
+	{selected ? 'bg-primary' : 'bg-transparent'}"
+>
 	<svelte:component this={icon} />
 </a>
