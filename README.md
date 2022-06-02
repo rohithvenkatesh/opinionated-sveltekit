@@ -1,6 +1,10 @@
-# embox
+# sveltekit, typescript, tailwindcss — starter framework
 
 by rohith venkatesh.
+
+**what is this?**
+
+this is a starter framework for a sveltekit project that has certain (helpful) tools already included and requires minimal set up (see below)
 
 **tools**
 
@@ -21,7 +25,7 @@ by rohith venkatesh.
 
 2. the `prettier-plugin-tailwindcss` npm package will take care of ordering tailwind classes
 
-3. for html tags, if the `class` attribute ends up > 80 line width, split into a newline with _similar_ attributes grouped per line (this takes place after the `prettier-plugin-tailwindcss` npm package has ordered the classes). 
+3. for html tags, if the `class` attribute ends up > 80 line width, split into a newline with _similar_ attributes grouped per line (this takes place after the `prettier-plugin-tailwindcss` npm package has ordered the classes)
 
     use your best heuristic — default to force wrapping at 80 characters.
 
